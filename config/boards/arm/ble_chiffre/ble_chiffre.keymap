@@ -115,7 +115,7 @@
             bindings = <
     &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SEMI
     &kp A &kp R &kp S &kp T &kp G &kp K &kp N &kp E &kp I &kp O
-    &kp Z &kp X &kp C &kp D &kp V &kp H &kp M &kp COMMA &kp DOT &kp FSLH
+    &kp Z &kp X &kp C &kp D &kp V &kp M &kp H &kp COMMA &kp DOT &kp FSLH
     &bh 2 ESC &mt LGUI RET &bh 1 SPACE &mt RCTRL TAB
             >;
         };
@@ -123,18 +123,18 @@
     num_sym {
             bindings = <
     &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-    &kp EXCL &kp AT &kp POUND &mt LSHFT DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR &kp EQUAL &kp MINUS
-    &none &trans &trans &trans &trans &kp KP_MINUS &kp RPAR &kp RBKT &kp DOT &kp BSLH
+    &kp LBKT &kp RBKT &kp LPAR &kp RPAR &trans &kp KP_PLUS &kp GRAVE &kp SQT &kp BSLH &kp KP_ASTERISK
+    &trans &trans &trans &trans &trans &kp KP_MINUS &kp KP_EQUAL &trans &trans &trans
     &trans &kp N0 &trans &trans
             >;
         };
 
     nav {
             bindings = <
-    &bt BT_SEL_CMD 0 &bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none &none &kp PG_UP &kp UP &none &kp BSPC
-    &trans &trans &trans &trans &none &kp HOME &kp LEFT &kp DOWN &kp RIGHT &kp END
-    &rgb_ug RGB_TOG &rgb_ug RGB_EFF &none &none &none &kp PG_DN &none &kp GRAVE &kp BSLH &kp FSLH
-    &bt BT_CLR &trans &kp C_PREV &kp C_PP
+    &kp LG(TAB) &none &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none &kp PG_UP &kp HOME &kp UP &kp END &kp COLON
+    &kp LALT &trans &trans &kp BSPC &none &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp RET
+    &kp LG(GRAVE) &none &none &none &none &none &kp RA(LEFT) &kp RA(RIGHT) &kp RA(B) &kp RA(F)
+    &trans &trans &kp DEL &kp RA(BSPC)
             >;
         };
     };
