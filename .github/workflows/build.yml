@@ -81,14 +81,14 @@ jobs:
       #   with:
       #     name: microdox_right
       #     path: microdox_right_nice_nano.uf2
-      - name: West Build (Lily58)
-        run: west build -s zmk/app -b nice_nano -d lily58 -- -DSHIELD=lily58_left -DZMK_CONFIG="${GITHUB_WORKSPACE}/config/lily58"
-      - name: Lily58 Kconfig file
-        run: cat md_right/zephyr/.config | grep -v "^#" | grep -v "^$"
-      - name: Rename zmk.uf2
-        run: cp lily58/zephyr/zmk.uf2 lily58_nice_nano.uf2
-      - name: Archive (Lily58)
-        uses: actions/upload-artifact@v2
-        with:
-          name: lily58
-          path: lily58_nice_nano.uf2
+      # - name: West Build (Lily58)
+      #   run: west build -s zmk/app -b nice_nano -d lily58 -- -DSHIELD=lily58_left -DZMK_CONFIG="${GITHUB_WORKSPACE}/config/lily58"
+      # - name: Lily58 Kconfig file
+      # #   run: cat md_right/zephyr/.config | grep -v "^#" | grep -v "^$"
+      # - name: Rename zmk.uf2
+        # run: cp lily58/zephyr/zmk.uf2 lily58_nice_nano.uf2
+      # - name: Archive (Lily58)
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: lily58
+      #     path: lily58_nice_nano.uf2
