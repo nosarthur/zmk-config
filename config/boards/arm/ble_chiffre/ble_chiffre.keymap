@@ -70,14 +70,14 @@
 		combo_mnxt
 		{
 			timeout-ms = <30>;
-			key-positions = <28 29>;
-			bindings = <&kp C_NEXT>;
+			key-positions = <26 27>;
+			bindings = <&kp MINUS>;
 		};
 		combo_mprev
 		{
 			timeout-ms = <30>;
-			key-positions = <27 28>;
-			bindings = <&kp C_PREV>;
+			key-positions = <25 26>;
+			bindings = <&kp DLLR>;
 		};
 		combo_mpp
 		{
@@ -125,16 +125,16 @@
     &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
     &kp LBKT &kp RBKT &kp LPAR &kp RPAR &trans &kp KP_PLUS &kp GRAVE &kp SQT &kp BSLH &kp KP_ASTERISK
     &trans &trans &trans &trans &trans &kp KP_MINUS &kp KP_EQUAL &trans &trans &trans
-    &trans &kp N0 &trans &trans
+    &sk LSHFT &kp N0 &trans &trans
             >;
         };
 
     nav {
             bindings = <
-    &kp LG(TAB) &none &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none &kp PG_UP &kp HOME &kp UP &kp END &kp COLON
+    &kp LG(TAB) &none &kp LS(LG(LBKT)) &kp LS(LG(RBKT)) &none &kp PG_UP &kp HOME &kp UP &kp END &kp COLON
     &kp LALT &trans &trans &kp BSPC &none &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp RET
-    &kp LG(GRAVE) &none &none &none &none &none &kp RA(LEFT) &kp RA(RIGHT) &kp RA(B) &kp RA(F)
-    &trans &trans &kp DEL &kp RA(BSPC)
+    &kp LG(GRAVE) &none &kp LS(LG(C)) &kp LC(LG(C)) &none &none &kp RA(LEFT) &kp RA(RIGHT) &kp RA(B) &kp RA(F)
+    &kp CAPS &trans &kp DEL &kp RA(BSPC)
             >;
         };
     };
