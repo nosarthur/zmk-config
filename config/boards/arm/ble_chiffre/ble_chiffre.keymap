@@ -143,7 +143,7 @@
     nav {
             bindings = <
     &kp LG(TAB) &none &kp LS(LG(LBKT)) &kp LS(LG(RBKT)) &bt BT_NXT	&kp PG_UP &kp HOME &kp UP &kp END &kp COLON
-    &kp LALT &trans &trans &kp BSPC &bt BT_CLR &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp RET
+    &kp LALT &kp LSHFT &trans &kp BSPC &bt BT_CLR &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp RET
     &kp LG(GRAVE) &none &kp LS(LG(C)) &kp LC(LG(C)) &none &kp RA(D) &kp RA(LEFT) &kp RA(RIGHT) &kp RA(B) &kp RA(F)
     &trans &kp CAPS &kp DEL &kp RA(BSPC)
             >;
