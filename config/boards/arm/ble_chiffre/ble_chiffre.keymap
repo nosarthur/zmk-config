@@ -12,6 +12,7 @@
 #define DEFAULT 0
 #define NUM_SYM 1
 #define NAV     2
+#define FUNC    3
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 
 / {
@@ -137,8 +138,8 @@
     default_layer {
             bindings = <
     &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y AS(SEMI)
-    &kp A &kp R &kp S &kp T &kp G &kp K &kp N &kp E &kp I &kp O
-    &hm LEFT_SHIFT Z &kp X &kp C &kp D &kp V &kp M &kp H AS(COMMA) AS(DOT) AS(FSLH)
+    &hm LEFT_SHIFT A &kp R &kp S &kp T &kp G &kp K &kp N &kp E &kp I &hm LEFT_SHIFT O
+    &kp Z &kp X &kp C &kp D &kp V &kp M &kp H AS(COMMA) AS(DOT) AS(FSLH)
     &bh 2 ESC &mt LGUI RET &bh 1 SPACE &mt RCTRL TAB
             >;
         };
