@@ -138,8 +138,8 @@
     default_layer {
             bindings = <
     &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y AS(SEMI)
-    &hm LEFT_SHIFT A &kp R &kp S &kp T &kp G &kp K &kp N &kp E &kp I &hm LEFT_SHIFT O
-    &kp Z &kp X &kp C &kp D &kp V &kp M &kp H AS(COMMA) AS(DOT) AS(FSLH)
+    &hm LCTRL A &kp R &kp S &kp T &kp G &kp K &kp N &kp E &kp I &hm RSHFT O
+    &hm LSHFT Z &kp X &kp C &kp D &kp V &kp M &kp H AS(COMMA) AS(DOT) AS(FSLH)
     &bh 2 ESC &mt LGUI RET &bh 1 SPACE &mt RCTRL TAB
             >;
         };
