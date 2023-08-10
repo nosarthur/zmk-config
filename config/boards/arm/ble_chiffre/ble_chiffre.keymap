@@ -149,7 +149,7 @@
     AS(N1) AS(N2) AS(N3) AS(N4) AS(N5) AS(N6) AS(N7) &kp N8 &kp N9 &kp N0
     AS(LBKT) AS(RBKT) &kp LPAR &kp RPAR &trans &kp KP_PLUS AS(GRAVE) &kp DQT AS(BSLH) &kp KP_ASTERISK
     &trans &trans &trans &trans &trans &kp KP_MINUS &kp KP_EQUAL &trans &trans &trans
-    &sk LSHFT &kp N0 &trans &trans
+    &trans &kp N0 &trans &trans
             >;
         };
 
@@ -157,7 +157,7 @@
             bindings = <
     &kp LG(TAB) &none     &kp LS(LG(LBKT)) &kp LS(LG(RBKT)) &bt BT_NXT	&kp PG_UP &kp HOME &kp UP   &kp END   &kp COLON
     &kp LALT    &kp SPACE &none            &kp BSPC         &bt BT_CLR  &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT &kp RET
-    &kp LG(GRAVE) &none &kp LS(LG(C)) &kp LC(LG(C)) &none &kp RA(D) &kp RA(LEFT) &kp RA(RIGHT) &kp RA(B) &kp RA(F)
+    &kp LG(GRAVE) &none &kp LS(LG(C))      &kp LC(LG(C))    &kp RA(BSPC) &kp RA(D) &kp RA(LEFT) &kp RA(RIGHT) &kp RA(B) &kp RA(F)
     &trans &kp CAPS &kp DEL &kp RA(BSPC)
             >;
         };
